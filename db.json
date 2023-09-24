@@ -2,35 +2,35 @@
   "pages": [
     {
       "id": "1a5f6b30-8a8e-4a13-8c24-2b0f8ed39b3e",
-      "name": "Button Page",
+      "name": "Button Page.jsx",
       "ctime": 1695543893953,
       "mtime": 1695543893958,
       "content": "import React from 'react';\n\nconst MyButton = ({ onClick, label }) => {\n  return (\n    <button onClick={onClick}>{label}</button>\n  );\n};\n\nexport default MyButton;"
     },
     {
       "id": "2f9c03e3-9ef7-4ca6-975a-91e7d7b4e7eb",
-      "name": "Header Page",
+      "name": "Header Page.jsx",
       "ctime": 1695543893960,
       "mtime": 1695543893965,
       "content": "import React from 'react';\n\nconst Header = () => {\n  return <h1>Hello, World!</h1>;\n};\n\nexport default Header;"
     },
     {
       "id": "3d6eb2e5-51f1-4a89-a9db-6ff60a01d5a5",
-      "name": "Paragraph Page",
+      "name": "Paragraph Page.jsx",
       "ctime": 1695543893970,
       "mtime": 1695543893975,
       "content": "import React from 'react';\n\nconst Paragraph = () => {\n  return <p>This is a paragraph.</p>;\n};\n\nexport default Paragraph;"
     },
     {
       "id": "4c7f0bf7-06f9-4d04-87ab-0d194db5a6b8",
-      "name": "List Page",
+      "name": "List Page.jsx",
       "ctime": 1695543893980,
       "mtime": 1695543893985,
       "content": "import React from 'react';\n\nconst List = () => {\n  return (\n    <ul>\n      <li>Item 1</li>\n      <li>Item 2</li>\n      <li>Item 3</li>\n    </ul>\n  );\n};\n\nexport default List;"
     },
     {
       "id": "5a92d647-6d49-4e8a-8830-b8c949a3a3c2",
-      "name": "Image Page",
+      "name": "Image Page.jsx",
       "ctime": 1695543893990,
       "mtime": 1695543893995,
       "content": "import React from 'react';\n\nconst Image = () => {\n  return <img src='image.jpg' alt='Sample Image' />;\n};\n\nexport default Image;"
